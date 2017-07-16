@@ -1,0 +1,93 @@
+
+
+
+        .currency-table 
+        {
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+            font-size: 14px;
+            border-radius: 10px;
+            border-spacing: 0;
+            text-align: center;
+        }
+
+        .currency-table th
+        {
+            background: #0be3ad;
+            color: white;
+            text-shadow: 0 1px 1px #2D2020;
+            padding: 10px 20px;
+        }
+
+        .currency-table th, td 
+        {
+            border-style: solid;
+            border-width: 0 1px 1px 0;
+            border-color: white;
+            padding: 10px 20px;
+            width: 60px;
+        }
+        
+        .table-capture
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5%;
+        }
+
+        .table-head
+        {
+            overflow: auto;
+            height: 10%;
+        }
+
+        .table-body
+        {
+            overflow: auto;
+            height: 90%;
+        }
+
+        .currency-table th:first-child, td:first-child 
+        {
+            text-align: left;
+        }
+
+        .currency-tableth:first-child 
+        {
+            border-top-left-radius: 10px;
+        }
+
+        .currency-table th:last-child 
+        {
+            border-top-right-radius: 10px;
+            border-right: none;
+        }
+        .currency-table td 
+        {
+            padding: 10px 20px;
+            /* background: #F8E391; */
+        }
+
+        .currency-table tr:last-child td:first-child 
+        {
+            border-radius: 0 0 0 10px;
+        }
+        .currency-table tr:last-child td:last-child 
+        {
+            border-radius: 0 0 10px 0;
+        }
+        .currency-table tr td:last-child 
+        {
+            border-right: none;
+        }
+
+        .currency-table tr:hover
+        {
+            background: #fcd2e6;
+            cursor: default;
+        }
+
+        .currency-table .table-first-column
+        {
+            width: 250px;
+        }

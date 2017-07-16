@@ -1,0 +1,25 @@
+{
+  "name": "currency-exchange-rate",
+  "version": "0.0.1",
+  "description": "Simple desktop application for displaying exchange rate USD to UAH",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "sqlite",
+    "nodejs",
+    "chromium"
+  ],
+  "author": "acSSadovskyi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-rebuild": "^1.5.11"
+  },
+  "dependencies": {
+    "pug": "^2.0.0-rc.2",
+    "sqlite": "^2.8.0"
+  }
+}

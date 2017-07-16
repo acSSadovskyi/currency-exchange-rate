@@ -1,0 +1,19 @@
+- var date = new Date(dataObj.date)
+- var organizations = dataObj.body 
+
+div(class='table-capture')= date
+div(class='table-head')
+    table(class='currency-table')
+        thead
+            tr(class='currency-table-header')
+                th(class="table-first-column") Orzanizations
+                th Ask
+                th Bid
+div(class='table-body')
+    table(class='currency-table')
+                        
+        - for(var i = 0; i < organizations.length; i++)
+            tr
+                td(class="table-first-column")= organizations[i].title    
+                td= organizations[i].currencies.USD.ask
+                td= organizations[i].currencies.USD.bid 
